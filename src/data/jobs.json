@@ -1,0 +1,353 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "UI/UX Designer",
+      "company": "Teams",
+      "location": "New York",
+      "postedTime": "1 day ago",
+      "applicants": 25,
+      "isPromoted": true,
+      "category": "featured",
+      "tags": [
+        "Frontend",
+        "Graphic Designer"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 2,
+      "title": "Frontend Developer",
+      "company": "Teams",
+      "location": "San Francisco",
+      "postedTime": "2 days ago",
+      "applicants": 18,
+      "isPromoted": true,
+      "category": "featured",
+      "tags": [
+        "Frontend"
+      ],
+      "jobType": "Part-time",
+      "workMode": "Hybrid"
+    },
+    {
+      "id": 3,
+      "title": "Graphic Designer",
+      "company": "Teams",
+      "location": "London",
+      "postedTime": "3 days ago",
+      "applicants": 32,
+      "isPromoted": true,
+      "category": "featured",
+      "tags": [
+        "Graphic Designer"
+      ],
+      "jobType": "Contract",
+      "workMode": "Onsite"
+    },
+    {
+      "id": 4,
+      "title": "Backend Engineer",
+      "company": "Teams",
+      "location": "Berlin",
+      "postedTime": "1 day ago",
+      "applicants": 15,
+      "isPromoted": true,
+      "category": "featured",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 5,
+      "title": "Full Stack Developer",
+      "company": "Teams",
+      "location": "New York",
+      "postedTime": "4 days ago",
+      "applicants": 28,
+      "isPromoted": true,
+      "category": "featured",
+      "tags": [
+        "Frontend",
+        "Backend"
+      ],
+      "jobType": "Internship",
+      "workMode": "Hybrid"
+    },
+    {
+      "id": 6,
+      "title": "React Developer",
+      "company": "Teams",
+      "location": "San Francisco",
+      "postedTime": "1 day ago",
+      "applicants": 22,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Frontend"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 7,
+      "title": "UI Designer",
+      "company": "Teams",
+      "location": "London",
+      "postedTime": "2 days ago",
+      "applicants": 19,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Graphic Designer"
+      ],
+      "jobType": "Part-time",
+      "workMode": "Onsite"
+    },
+    {
+      "id": 8,
+      "title": "Node.js Developer",
+      "company": "Teams",
+      "location": "Berlin",
+      "postedTime": "3 days ago",
+      "applicants": 14,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Contract",
+      "workMode": "Hybrid"
+    },
+    {
+      "id": 9,
+      "title": "UX Designer",
+      "company": "Teams",
+      "location": "New York",
+      "postedTime": "2 days ago",
+      "applicants": 27,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Frontend",
+        "Graphic Designer"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 10,
+      "title": "Python Developer",
+      "company": "Teams",
+      "location": "San Francisco",
+      "postedTime": "1 day ago",
+      "applicants": 21,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Internship",
+      "workMode": "Onsite"
+    },
+    {
+      "id": 11,
+      "title": "Vue.js Developer",
+      "company": "Teams",
+      "location": "London",
+      "postedTime": "4 days ago",
+      "applicants": 12,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Frontend"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 12,
+      "title": "Brand Designer",
+      "company": "Teams",
+      "location": "Berlin",
+      "postedTime": "3 days ago",
+      "applicants": 35,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Graphic Designer"
+      ],
+      "jobType": "Part-time",
+      "workMode": "Hybrid"
+    },
+    {
+      "id": 13,
+      "title": "Angular Developer",
+      "company": "Teams",
+      "location": "New York",
+      "postedTime": "2 days ago",
+      "applicants": 16,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Frontend"
+      ],
+      "jobType": "Contract",
+      "workMode": "Onsite"
+    },
+    {
+      "id": 14,
+      "title": "Java Developer",
+      "company": "Teams",
+      "location": "San Francisco",
+      "postedTime": "1 day ago",
+      "applicants": 11,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 15,
+      "title": "Product Designer",
+      "company": "Teams",
+      "location": "London",
+      "postedTime": "5 days ago",
+      "applicants": 23,
+      "isPromoted": false,
+      "category": "recommended",
+      "tags": [
+        "Graphic Designer"
+      ],
+      "jobType": "Internship",
+      "workMode": "Hybrid"
+    },
+    {
+      "id": 16,
+      "title": "JavaScript Developer",
+      "company": "Teams",
+      "location": "Berlin",
+      "postedTime": "1 day ago",
+      "applicants": 45,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Frontend"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 17,
+      "title": "Ruby Developer",
+      "company": "Teams",
+      "location": "New York",
+      "postedTime": "2 days ago",
+      "applicants": 8,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Part-time",
+      "workMode": "Onsite"
+    },
+    {
+      "id": 18,
+      "title": "Motion Designer",
+      "company": "Teams",
+      "location": "San Francisco",
+      "postedTime": "1 day ago",
+      "applicants": 29,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Graphic Designer"
+      ],
+      "jobType": "Contract",
+      "workMode": "Hybrid"
+    },
+    {
+      "id": 19,
+      "title": "TypeScript Developer",
+      "company": "Teams",
+      "location": "London",
+      "postedTime": "3 days ago",
+      "applicants": 17,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Frontend"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 20,
+      "title": "Go Developer",
+      "company": "Teams",
+      "location": "Berlin",
+      "postedTime": "2 days ago",
+      "applicants": 13,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Internship",
+      "workMode": "Onsite"
+    },
+    {
+      "id": 21,
+      "title": "Illustrator",
+      "company": "Teams",
+      "location": "New York",
+      "postedTime": "4 days ago",
+      "applicants": 31,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Graphic Designer"
+      ],
+      "jobType": "Full-time",
+      "workMode": "Remote"
+    },
+    {
+      "id": 22,
+      "title": "Software Engineer",
+      "company": "Teams",
+      "location": "San Francisco",
+      "postedTime": "1 day ago",
+      "applicants": 20,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Frontend",
+        "Backend"
+      ],
+      "jobType": "Part-time",
+      "workMode": "Hybrid"
+    },
+    {
+      "id": 23,
+      "title": "Visual Designer",
+      "company": "Teams",
+      "location": "London",
+      "postedTime": "3 days ago",
+      "applicants": 26,
+      "isPromoted": false,
+      "category": "latest",
+      "tags": [
+        "Graphic Designer"
+      ],
+      "jobType": "Contract",
+      "workMode": "Onsite"
+    }
+  ]
+}

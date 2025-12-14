@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap");
+
+@layer base {
+  :root {
+    --primaryRed: #ff0000;
+    --primaryHeadColor: #333333;
+    --primaryGray: #737A91;
+    --primaryTextGray: #585D6E;
+    --primaryBlue: #0154AA;
+    --bgSurfaceGray: #F4F4F4;
+
+    --background: 0 0% 100%;
+    --foreground: 220 13% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
+
+    --primary: 217 91% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 13% 18%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 13% 18%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 50%;
+
+    --radius: 0.5rem;
+
+    /* Custom colors */
+    --brand-blue: 217 91% 50%;
+    --brand-blue-dark: 217 91% 40%;
+    --text-primary: 220 13% 18%;
+    --text-secondary: 220 9% 46%;
+    --text-muted: 220 9% 60%;
+    --surface: 220 14% 98%;
+    --surface-hover: 220 14% 94%;
+    --badge-bg: 217 91% 95%;
+    --badge-text: 217 91% 40%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 13% 18%;
+    --sidebar-primary: 217 91% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 220 13% 18%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217 91% 50%;
+  }
+
+  .dark {
+    --background: 220 13% 8%;
+    --foreground: 220 14% 96%;
+
+    --card: 220 13% 12%;
+    --card-foreground: 220 14% 96%;
+
+    --popover: 220 13% 12%;
+    --popover-foreground: 220 14% 96%;
+
+    --primary: 217 91% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 13% 18%;
+    --secondary-foreground: 220 14% 96%;
+
+    --muted: 220 13% 18%;
+    --muted-foreground: 220 9% 60%;
+
+    --accent: 220 13% 18%;
+    --accent-foreground: 220 14% 96%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 220 14% 96%;
+
+    --border: 220 13% 20%;
+    --input: 220 13% 20%;
+    --ring: 217 91% 50%;
+
+    --sidebar-background: 220 13% 10%;
+    --sidebar-foreground: 220 14% 96%;
+    --sidebar-primary: 217 91% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 13% 18%;
+    --sidebar-accent-foreground: 220 14% 96%;
+    --sidebar-border: 220 13% 20%;
+    --sidebar-ring: 217 91% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  /* Regular */
+  @font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('/fonts/NeueHaasGroteskDisplayPro-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  /* Medium */
+  @font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('/fonts/NeueHaasGroteskDisplayPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  /* Bold */
+  @font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('/fonts/NeueHaasGroteskDisplayPro-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    font-family: 'Neue Haas Grotesk Display Pro', Inter, system-ui, sans-serif;
+    font-weight: 400;
+    zoom: 90%;
+  }
+
+  /* body {
+    font-family: "Inter", system-ui, sans-serif;
+    letter-spacing: -0.01em;
+    font-feature-settings: "ss01", "cv01", "cv02";
+  } */
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+  }
+
+  button {
+    border-radius: 8px !important;
+  }
+}

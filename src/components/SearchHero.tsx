@@ -43,7 +43,7 @@ const SearchHero = ({
     <div className="mb-6">
       {/* Hero Title */}
       <div className="mb-4">
-        <h1 className="font-sans text-[22px] text-[var(--primaryHeadColor)] font-bold mb-1">
+        <h1 className="font-sans text-[22px] text-[var(--primaryHeadColor)] font-bold mb-0">
           Find your Dream Job,{" "}
           <span className="text-[var(--primaryBlue)]">Albert!</span>
         </h1>

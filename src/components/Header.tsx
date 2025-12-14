@@ -29,8 +29,8 @@ const Header = () => {
     <header className="container mx-auto px-3 py-[35px] h-14 flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center gap-2">
-        <div className="w-8 h-8 rounded-lg flex items-center justify-center">
-          <img alt="" src={Logo} />
+        <div className="w-[40px] h-[40px] rounded-lg flex items-center justify-center">
+          <img alt="" src={Logo} style={{ width: "40px", height: "40px" }} />
         </div>
       </div>
 
@@ -71,7 +71,7 @@ const Header = () => {
           Resume Builder
         </Button>
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+          <div className="w-[40px] h-[40px] rounded-lg flex items-center justify-center">
             <img alt="" src={ProfImg} />
           </div>
         </div>

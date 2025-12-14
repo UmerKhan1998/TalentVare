@@ -6,6 +6,7 @@ import JobSection from "@/components/JobSection";
 import EmptyState from "@/components/EmptyState";
 import jobsData from "@/data/jobs.json";
 import { Job, FilterTag } from "@/types/job";
+import CoverImg from "@/public/images/coverImg.png";
 
 const Index = () => {
   const [activeFilter, setActiveFilter] = useState<FilterTag | null>(null);
@@ -75,6 +76,7 @@ const Index = () => {
       </div>
       <div className="flex container mx-auto px-3">
         <Sidebar
+          coverImg={CoverImg}
           candidateTitle={"Albert Flores"}
           designation={
             "Senior Product Designer | UI/UX Designer | Graphic Designer | Web..."

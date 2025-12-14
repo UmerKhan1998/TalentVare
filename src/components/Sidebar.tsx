@@ -2,7 +2,6 @@ import { ChevronDown } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 import ProfImg from "@/public/images/User.jpg";
-import CoverImg from "@/public/images/coverImg.png";
 
 const stats = [
   { label: "Profile Visitors", value: 140 },
@@ -12,17 +11,27 @@ const stats = [
 interface SidebarProps {
   candidateTitle: string;
   designation: string;
+  coverImg: string;
   location: string;
 }
 
-const Sidebar = ({ candidateTitle, designation, location }: SidebarProps) => {
+const Sidebar = ({
+  candidateTitle,
+  coverImg,
+  designation,
+  location,
+}: SidebarProps) => {
   return (
     <aside className="mt-4 w-[350px] space-y-4">
       {/* ================= Profile Card ================= */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
         {/* Cover */}
-        <div className="relative h-20">
-          <img src={CoverImg} alt="Cover image" className="w-full h-full object-cover" />
+        <div className="relative h-[98px]">
+          <img
+            src={coverImg}
+            alt="Cover image"
+            className="w-full h-full object-cover"
+          />
 
           {/* Avatar */}
           <Avatar className="w-16 h-16 absolute -bottom-8 left-1/2 -translate-x-1/2 border-2 border-white">
@@ -37,7 +46,7 @@ const Sidebar = ({ candidateTitle, designation, location }: SidebarProps) => {
             {candidateTitle}
           </h3>
 
-          <p className="font-sans text-[12px] text-[var(--primaryHeadColor)] font-normal px-1 mt-1 leading-relaxed">
+          <p className="font-sans text-[12px] text-[var(--primaryHeadColor)] font-normal px-[48px] mt-1 leading-relaxed">
             {designation}
           </p>
 

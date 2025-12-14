@@ -1,4 +1,4 @@
-# Find Jobs App --- Frontend Assessment
+# TalentVare App --- Frontend Assessment
 
 A **pixel-perfect job search application** built with **React,
 TypeScript, and Tailwind CSS**, designed to demonstrate strong UI

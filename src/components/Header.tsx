@@ -54,7 +54,7 @@ const Header = () => {
       </nav>
 
       {/* Right section */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2 md:gap-3">
         <div className="relative hidden md:block">
           <img
             alt=""
@@ -67,12 +67,17 @@ const Header = () => {
             className="font-sans placeholder:text-[16px] placeholder:font-normal font-normal text-[16px] pl-9 h-9 w-48 bg-muted border-0 focus-visible:ring-1"
           />
         </div>
-        <Button className="font-sans h-9 px-4 text-[16px] font-normal bg-[var(--primaryBlue)]">
-          Resume Builder
+        <Button className="font-sans h-9 px-2 sm:px-4 text-[12px] sm:text-[16px] font-normal bg-[var(--primaryBlue)]">
+          <span className="hidden sm:inline">Resume Builder</span>
+          <span className="sm:hidden">Resume</span>
         </Button>
         <div className="flex items-center gap-2">
-          <div className="w-[40px] h-[40px] rounded-lg flex items-center justify-center">
-            <img alt="" src={ProfImg} />
+          <div className="w-[32px] h-[32px] md:w-[40px] md:h-[40px] rounded-lg flex items-center justify-center">
+            <img
+              alt=""
+              src={ProfImg}
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
         </div>
       </div>

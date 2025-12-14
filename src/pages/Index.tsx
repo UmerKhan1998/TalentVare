@@ -74,16 +74,18 @@ const Index = () => {
       <div className="bg-card border-b border-border sticky top-0 z-50">
         <Header />
       </div>
-      <div className="flex container mx-auto px-3">
-        <Sidebar
-          coverImg={CoverImg}
-          candidateTitle={"Albert Flores"}
-          designation={
-            "Senior Product Designer | UI/UX Designer | Graphic Designer | Web..."
-          }
-          location={"Clinton, Maryland, USA"}
-        />
-        <main className="flex-1 pl-6 pt-6 pb-6 overflow-auto">
+      <div className="flex flex-col lg:flex-row container mx-auto px-3">
+        <div className="block">
+          <Sidebar
+            coverImg={CoverImg}
+            candidateTitle={"Albert Flores"}
+            designation={
+              "Senior Product Designer | UI/UX Designer | Graphic Designer | Web..."
+            }
+            location={"Clinton, Maryland, USA"}
+          />
+        </div>
+        <main className="flex-1 lg:pl-6 pt-4 lg:pt-6 pb-6 overflow-auto">
           <SearchHero
             activeFilter={activeFilter}
             onFilterChange={setActiveFilter}

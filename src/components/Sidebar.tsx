@@ -22,7 +22,7 @@ const Sidebar = ({
   location,
 }: SidebarProps) => {
   return (
-    <aside className="mt-4 w-[350px] space-y-4">
+    <aside className="mt-4 w-full lg:w-[350px] space-y-4">
       {/* ================= Profile Card ================= */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
         {/* Cover */}
@@ -42,15 +42,15 @@ const Sidebar = ({
 
         {/* Profile Info */}
         <div className="pt-10 pb-4 px-4 text-center">
-          <h3 className="font-sans text-[18px] text-[var(--primaryHeadColor)] font-bold">
+          <h3 className="font-sans text-[16px] sm:text-[18px] text-[var(--primaryHeadColor)] font-bold">
             {candidateTitle}
           </h3>
 
-          <p className="font-sans text-[12px] text-[var(--primaryHeadColor)] font-normal px-[48px] mt-1 leading-relaxed">
+          <p className="font-sans text-[11px] sm:text-[12px] text-[var(--primaryHeadColor)] font-normal px-6 sm:px-[48px] mt-1 leading-relaxed">
             {designation}
           </p>
 
-          <p className="font-sans text-[12px] text-[var(--primaryGray)] font-thin mt-1">
+          <p className="font-sans text-[11px] sm:text-[12px] text-[var(--primaryGray)] font-thin mt-1">
             {location}
           </p>
         </div>
@@ -63,10 +63,10 @@ const Sidebar = ({
             key={label}
             className="flex items-center justify-between px-4 py-2 text-xs hover:bg-gray-50 cursor-pointer"
           >
-            <span className="font-sans text-[14px] text-[var(--primaryHeadColor)] font-normal">
+            <span className="font-sans text-[13px] sm:text-[14px] text-[var(--primaryHeadColor)] font-normal">
               {label}
             </span>
-            <span className="font-sans text-[14px] text-[var(--primaryBlue)] font-normal">
+            <span className="font-sans text-[13px] sm:text-[14px] text-[var(--primaryBlue)] font-normal">
               {value}
             </span>
           </div>
@@ -75,12 +75,12 @@ const Sidebar = ({
 
       {/* ================= Calendar Card ================= */}
       <div className="bg-white border border-gray-200 rounded-xl px-4 py-3">
-        <button className="font-sans text-[16px] text-[var(--primaryHeadColor)] font-bold flex items-center justify-between w-full">
+        <button className="font-sans text-[14px] sm:text-[16px] text-[var(--primaryHeadColor)] font-bold flex items-center justify-between w-full">
           My calendar
           <ChevronDown className="w-4 h-4 text-gray-500" />
         </button>
 
-        <p className="mt-1 font-sans text-[14px] text-[var(--primaryGray)] font-normal">
+        <p className="mt-1 font-sans text-[13px] sm:text-[14px] text-[var(--primaryGray)] font-normal">
           Upcoming Interviews
         </p>
       </div>

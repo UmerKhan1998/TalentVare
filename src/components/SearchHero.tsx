@@ -43,11 +43,11 @@ const SearchHero = ({
     <div className="mb-6">
       {/* Hero Title */}
       <div className="mb-4">
-        <h1 className="font-sans text-[22px] text-[var(--primaryHeadColor)] font-bold mb-0">
+        <h1 className="font-sans text-[18px] sm:text-[22px] text-[var(--primaryHeadColor)] font-bold mb-0">
           Find your Dream Job,{" "}
           <span className="text-[var(--primaryBlue)]">Albert!</span>
         </h1>
-        <p className="font-sans text-[14px] text-[var(--primaryTextGray)]">
+        <p className="font-sans text-[12px] sm:text-[14px] text-[var(--primaryTextGray)]">
           Explore the latest job openings and apply for the best opportunities
           available today!
         </p>
@@ -60,7 +60,7 @@ const SearchHero = ({
               <Input
                 type="text"
                 placeholder="Job Title, Company or Keywords"
-                className="font-sans placeholder:text-[14px] placeholder:font-normal h-10 text-[14px] border-border"
+                className="font-sans placeholder:text-[12px] sm:placeholder:text-[14px] placeholder:font-normal h-10 text-[12px] sm:text-[14px] border-border"
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
               />
@@ -78,7 +78,7 @@ const SearchHero = ({
             >
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span className="font-sans text-[14px] font-normal">
+                <span className="font-sans text-[12px] sm:text-[14px] font-normal">
                   {location}
                 </span>
               </div>
@@ -89,7 +89,7 @@ const SearchHero = ({
                 {locations.map((loc) => (
                   <li
                     key={loc}
-                    className="px-3 py-2 hover:bg-muted cursor-pointer text-sm"
+                    className="px-3 py-2 hover:bg-muted cursor-pointer text-[12px] sm:text-sm"
                     onClick={() => {
                       setLocation(loc);
                       setShowLocationDropdown(false);
@@ -111,7 +111,7 @@ const SearchHero = ({
               }}
               className="w-full h-10 px-3 flex items-center justify-between text-sm text-muted-foreground bg-muted border border-border rounded-md hover:bg-surface-hover transition-colors"
             >
-              <span className="font-sans text-[14px] font-normal">
+              <span className="font-sans text-[12px] sm:text-[14px] font-normal">
                 {jobType}
               </span>
               <ChevronDown className="h-4 w-4" />
@@ -121,7 +121,7 @@ const SearchHero = ({
                 {jobTypes.map((type) => (
                   <li
                     key={type}
-                    className="px-3 py-2 hover:bg-muted cursor-pointer text-sm"
+                    className="px-3 py-2 hover:bg-muted cursor-pointer text-[12px] sm:text-sm"
                     onClick={() => {
                       setJobType(type);
                       setShowJobTypeDropdown(false);
@@ -137,7 +137,7 @@ const SearchHero = ({
           {/* Search Button */}
           <Button
             onClick={handleSearch}
-            className="h-10 px-10 bg-[var(--primaryBlue)] text-[14px] font-sans flex items-center gap-2"
+            className="h-10 px-6 sm:px-10 bg-[var(--primaryBlue)] text-[12px] sm:text-[14px] font-sans flex items-center gap-2"
           >
             <img src={SearchIcon} alt="search" className="text-[#fff]" />
             <span>Search</span>
@@ -146,14 +146,14 @@ const SearchHero = ({
       </div>{" "}
       {/* Filter Tags */}
       <div className="flex align-baseline flex-wrap gap-2 pt-[15px]">
-        <p className="font-sans text-[14px] font-normal text-[var(--primaryGray)] flex items-center">
+        <p className="font-sans text-[12px] sm:text-[14px] font-normal text-[var(--primaryGray)] flex items-center">
           Similar:
         </p>
         {filterTags.map((tag) => (
           <button
             key={tag}
             onClick={() => handleFilterClick(tag)}
-            className={`font-sans px-3 py-1.5 text-xs font-[16px] rounded-[5px] transition-colors ${
+            className={`font-sans px-3 py-1.5 text-[11px] sm:text-xs font-[16px] rounded-[5px] transition-colors ${
               activeFilter === tag
                 ? "bg-[var(--primaryBlue)] text-white border border-[var(--primaryBlue)]"
                 : "text-muted-foreground bg-transparent border border-[var(--primaryGray)] hover:bg-surface-hover hover:text-[var(--primaryGray)]"

@@ -53,7 +53,7 @@ criteria such as keywords, location, job type, and work mode.
 ## 📁 Project Structure
 
 ```
-pixel-perfect-dev/
+TalentVare/
 ├── src/
 │   ├── components/
 │   │   ├── ui/              # Reusable UI components (buttons, inputs, etc.)
